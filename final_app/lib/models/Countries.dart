@@ -1,4 +1,4 @@
-import 'dart:ffi';
+
 
 class Countries {
   String name;
@@ -16,13 +16,6 @@ class Countries {
     required this.des
  });
 
-  String get _name => name;
-
-  String get _imagepath => imgpth;
-
-  String get _rating => _rating;
-  String get _foodname => _foodname;
-  String get _des => _des;
 
 
 
