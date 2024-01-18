@@ -60,7 +60,6 @@ class _detailsState extends State<details> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  ElevatedButton(onPressed: () {}, child: Text("Share")),
                   Align(
                     alignment: Alignment.bottomRight,
                       child: ElevatedButton(onPressed: (){}, child: Text("Add to cart"))),
